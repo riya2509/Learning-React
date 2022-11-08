@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Variables from "./Variables"
+import Data from "./Data"
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         </a>
       </header>
       <Variables/>
+      <Data/>
     </div>
   );
 }
