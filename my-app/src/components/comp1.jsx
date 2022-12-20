@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Comp1.css";
 function Comp1() {
   const [name, setName] = useState("");
   const [age, setAge] = useState("");
@@ -15,6 +16,7 @@ function Comp1() {
   };
   return (
     <>
+      <input type="text" className="Search" placeholder="Search for Content" />
       <input
         type="text"
         className="name"
@@ -46,7 +48,9 @@ function Comp1() {
         placeholder="Money"
       />
 
-      <button onClick={handleSubmit}>Submit</button>
+      <button className="Submit" onClick={handleSubmit}>
+        Submit
+      </button>
     </>
   );
 }
