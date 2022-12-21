@@ -15,7 +15,7 @@ function Comp1() {
     console.log(money);
   };
   return (
-    <>
+    <div className="container">
       <input type="text" className="Search" placeholder="Search for Content" />
       <input
         type="text"
@@ -51,7 +51,7 @@ function Comp1() {
       <button className="Submit" onClick={handleSubmit}>
         Submit
       </button>
-    </>
+    </div>
   );
 }
 export default Comp1;
