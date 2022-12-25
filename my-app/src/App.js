@@ -1,9 +1,9 @@
-import './App.css';
-import Comp1 from "./components/comp1"
+import "./App.css";
+import City from "./components/City";
 function App() {
   return (
-    <div >
-      <Comp1/>
+    <div>
+      <City />
     </div>
   );
 }
