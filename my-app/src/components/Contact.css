@@ -1,0 +1,25 @@
+.card{
+    width:250px;
+    background-color: cornflowerblue;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    transition: transform 0.2s ;
+   }
+   .image{
+       margin-bottom: 15px;
+   }
+   .outerCard{
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+   }
+   .innerImage{
+       width: 200px;
+   }
+   .card:hover{
+   transform: scale(1.1);}
